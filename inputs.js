@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-	var Button2 = document.getElementById("input_button");
-	Button2.addEventListener('click', function() {
-		alert("hi");
+	var Button = document.getElementById('input_button');
+	Button.addEventListener('click', function() {
+		start_session();
 	});
 });
 
 function start_session() {
-	alert("hello");
+	window.alert("hello");
 }
