@@ -1,8 +1,11 @@
-document.addEventListener('DOMCOntentLoaded', function () {
-	document.querySelector('button').addEventListener('click', onclick, false)
+document.addEventListener("DOMContentLoaded", function() {
+	var Button = document.getElementById('button');
+	Button.addEventListener('click', function() {
+		onClick();
+	});
+});
 
-	function onclick() {
-		var input = window.prompt("Enter name: ");
-		alert(input);
-	}
-}, false)
+function onClick() {
+	//var time = window.prompt("Length of Session (in minutes): ");
+	window.open("inputs.html")
+}

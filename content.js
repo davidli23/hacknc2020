@@ -15,7 +15,3 @@ findAllURL = function changeAllURL(text){
     document.documentElement.scrollTop = 0;
   }
 }
-
-chrome.runtime.onMessage.addListener(function (request) {
-  alert(request)
-})
