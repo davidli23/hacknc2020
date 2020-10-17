@@ -3,7 +3,7 @@
 	"version": "1.0",
 	"description": "the coolest extension to ever exist",
 	"browser_action": {
-          "default_popup": "popup.html"
+       	"default_popup": "popup.html"
 	},
 	"manifest_version": 2
 }
