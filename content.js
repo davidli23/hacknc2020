@@ -16,4 +16,6 @@ findAllURL = function changeAllURL(text){
   }
 }
 
-findAllURL("https://www.facebook.com/");
+chrome.runtime.onMessage.addListener(function (request) {
+  alert(request)
+})
