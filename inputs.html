@@ -3,15 +3,20 @@
 <head>
 </head>
 <body>
+	<p>Boost your productivity by blocking out distracting websites! Enter how long you want to stay focused and which websites you feel distract you the most. I'll help you keep your attention on the things that matter.<br>
+	</p>
 	<form>
-		<label for="number">Length of session:</label><br>
-  		<input type="number" id="time" name="time"><br>
- 		<label for="site">Blocked Website:</label><br>
-  		<input type="text" id="site" name="site">
+		<label for="number">Session length (in minutes):</label><br>
+  		<input type="number" id="time"><br>
+  		<br>
+ 		<label for="site">Websites you want to block (ex. facebook.com):</label><br>
+  		<input type="text" name="site">
 	</form>
-  	<div id="container"></div>
+	<div id="container"></div>
+	<p> <b>Warning</b>: once you press Start you're committing to staying away from these websites until your session is over...<br>
+	</p>
 	<button id="add_button">Add website</button>
-	<button id="start_button">Start</button>
+	<button id="start_button">Start!</button>
 	<script src="inputs.js"></script>
 </body>
 </html>
